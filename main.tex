@@ -1,0 +1,100 @@
+%%%%%---------------------------------
+%
+% This is latex thesis for zuel project report.
+%
+%%%%%---------------------------------
+%
+% If any problem, contact yihancao1999@gmail.com
+%
+%%%%%---------------------------------
+
+\documentclass[a4paper,12pt]{report}
+\include{pages/config}
+
+%---------------------------------------------------------------------
+%	页眉页脚设置
+%---------------------------------------------------------------------
+\fancypagestyle{plain}{
+	\pagestyle{fancy}      %改变章节首页页眉
+}
+
+\pagestyle{fancy}
+\lhead{\kaishu~中南财经政法大学本科课程论文~}
+\rhead{\kaishu~学号~姓名~}
+\cfoot{\thepage}
+
+
+
+\begin{document}
+%---------------------------------------------------------------------
+%	Preface
+%---------------------------------------------------------------------
+\begin{titlepage}
+	\begin{center}
+		
+	\includegraphics[width=0.5\textwidth]{figure//logo1.png}\\
+	\vspace{10mm}
+	\textbf{\zihao{2}\heiti{本科课程论文}}\\[0.8cm]
+    \includegraphics[width=0.5\textwidth]{figure//logo.jpg}\\
+    \vspace{10mm}
+    
+	\vspace{\fill}
+	
+\setlength{\extrarowheight}{4mm}
+{\songti\zihao{3}	
+\begin{tabular}{rl}
+    {\makebox[4\ccwd][s]{论文题目：}}& ~\kaishu 中南财经政法大学本科课程论文\LaTeX 模板\\
+	
+	{\makebox[4\ccwd][s]{院系名称：}}& ~\kaishu 统计与数学学院 \\
+	
+	{\makebox[4\ccwd][s]{专业名称：}}& ~\kaishu xxxxxx \\ 
+
+	{\makebox[4\ccwd][s]{作者姓名：}}& ~\kaishu xxxxxx \\
+
+	{\makebox[4\ccwd][s]{教师姓名：}}& ~\kaishu xxxxxx \\
+
+    
+
+\end{tabular}
+ }\\[1cm]
+\vspace{\fill}
+\zihao{4}
+2019\textasciitilde 2020第二学期\\
+使用\LaTeX 撰写于\today
+	\end{center}	
+\end{titlepage}
+
+%---------------------------------------------------------------------
+%  Abstract
+%---------------------------------------------------------------------
+\newpage
+\include{pages/abstract}
+
+%---------------------------------------------------------------------
+%  Toc
+%---------------------------------------------------------------------
+\newpage
+\tableofcontents 
+
+%---------------------------------------------------------------------
+%  Main Contents
+%---------------------------------------------------------------------
+\newpage
+\include{pages/chapter1}
+\include{pages/chapter2}
+\include{pages/chapter3}
+\include{pages/chapter4}
+
+%----------------------------------------------------------------
+% Reference and Appendix
+%----------------------------------------------------------------
+\clearpage
+\bibliographystyle{unsrt} 
+\begin{thebibliography}{1}
+\bibitem{YihanCao2020}
+YihanCao, 2020....
+\end{thebibliography}
+
+\include{pages/appendix}
+
+\end{document}

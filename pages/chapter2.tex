@@ -1,0 +1,31 @@
+\chapter{\LaTeX 数学环境}
+
+\section{公式与数学字符}
+
+\LaTeX 支持各种数学公式的表达。在两个美元符号中间可以加入行间公式：$\sin ^2 \theta +\cos ^2 \theta = 1$。如果需要换行键入公式，一般有两种方式，一种是与行间公式类似的格式，在四个美元符号之间加入：
+$$
+\sin ^2 \theta +\cos ^2 \theta = 1
+$$
+
+但是这种键入方式并不稳定，一般地，在论文中会使用equation的方法键入公式:
+\begin{equation}
+\sin^2 \theta + \cos^2 \theta  =1
+\end{equation}
+
+并且，equation也支持多行公式，并支持对齐：
+\begin{equation}
+	\begin{aligned}
+		f(x,y) &= (x+y)^2\\%换行符
+			& = x^2 + 2xy + y^2	
+	\end{aligned}
+\end{equation}
+
+\section{数学环境}
+
+本模板中也定义了一般会用到的数学环境。
+例如：
+\begin{Def}
+这是一个定义。
+\end{Def}
+
+模板中定义的数学环境有Proposition、Definition、Example、Theorem、Proof，使用者同样可以自行添加。

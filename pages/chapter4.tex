@@ -1,0 +1,33 @@
+\chapter{代码、算法与附录}
+\section{代码}
+输入一个代码块：
+\begin{verbatim}
+import numpy as np
+\end{verbatim}
+
+使用listing对代码块进行优化以及设置：
+\lstset{basicstyle = \ttfamily, breaklines = true}
+\begin{lstlisting}[language = Python]
+import numpy as np
+
+a = np.mean((1,2,3))
+
+\end{lstlisting}
+
+\section{算法}
+使用algorithm可以生成代码，例如：
+
+\begin{algorithm}[H]
+\caption{Algorithm1}
+\label{algo1}
+\LinesNumbered
+\KwIn{A vector $a=(a_1,a_2,a_n)$}
+\KwOut{Sum of the vector $S$}
+S = 0
+\For{i = 1:n}{
+	$S = S + a_i$
+}
+\end{algorithm}
+
+\section{附录}
+附录环境可以直接通过appendix开启。

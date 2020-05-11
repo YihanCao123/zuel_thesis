@@ -1,0 +1,61 @@
+\chapter{图表及引用}
+
+\section{图片}
+
+\LaTeX 支持多种图片格式，并且可以通过label整理出非常整洁的图索引。当然，也可以使用tikz等工具直接在\LaTeX 中完成矢量图的绘制。一般插入外部图片，可以使用：
+
+\begin{figure}[H]
+\centering
+\includegraphics [width=0.8\textwidth]{figure//logo.jpg}
+\caption{中南财经政法大学校徽}\label{fig1}
+\end{figure}
+
+这里可以设置多种参数，具体请见latex教程。
+
+\section{表格与列表}
+
+当用\LaTeX 编辑长表格时常常会很麻烦，这时可以使用在线工具，或者使用excel的插件，这些都可以讲excel表格转换为latex表格。
+一个普通的三线表如下：
+
+\begin{table}[H]
+	\centering
+	\caption{三线表格}
+	\label{tab1}
+	\begin{tabular}{lcc}
+\hline
+1 & 2 & 3\\
+\hline
+4 & 5 & 6\\
+7 & 8 & 9\\
+\hline
+	\end{tabular}
+\end{table}
+
+\section{无序列表与有序列表}
+
+\LaTeX 支持有序与无序的列表，有序列表为：
+\begin{enumerate}
+\item{这是一个有序列表。}
+\item{这是两个有序列表。}
+\end{enumerate}
+
+无序列表为：
+\begin{itemize}
+\item{这是一个无序列表。}
+\item{这是一个无序列表。}
+\end{itemize}
+
+\section{引用设置}
+
+\subsection{脚注与超链接}
+
+使用脚注，常常是在文中出现了来自网页等来源的信息时。在\LaTeX 中插入脚注的方法为\footnote{在这里插入脚注}。
+
+脚注有时会链接到网址，latex中同样可以插入网址，例如：\href{https://github.com}{github}。
+
+使用ref可以链接到同一篇文章中的位置，例如链接到前面的三线表格~\ref{tab1}
+
+\subsection{参考文献}
+
+参考文献可以使用cite来标注。例如\cite{YihanCao2020}，使用逗号分隔可以同时引用多个参考文献。注意，这里参考文献脚注出现的位置是作者定义的，使用者可以在config中更改。
+
