@@ -57,5 +57,14 @@
 
 \subsection{参考文献}
 
-参考文献可以使用cite来标注。例如\cite{YihanCao2020}，使用逗号分隔可以同时引用多个参考文献。注意，这里参考文献脚注出现的位置是作者定义的，使用者可以在config中更改。
+参考文献可以使用cite来标注。使用逗号分隔可以同时引用多个参考文献。注意，这里参考文献脚注出现的位置是作者定义的，使用者可以在config中更改。
+
+可以直接在文档末尾手打引用文献，但是这种方式并不便捷，我们推荐使用bibtex的模式。在参考文献界面（例如researchgate等网站）上导出bib格式的参考文献，并复制入ref/reference.bib中，就可以在文中直接生成参考文献\cite{article1}。
+
+使用bibTex编译参考文献，需要三个步骤： 
+\begin{itemize}
+\item{首先，使用Xelatex编译}
+\item{使用BibTex编译一次}
+\item{使用Xelatex编译两次}
+\end{itemize}
 

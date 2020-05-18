@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.11.17)  11 MAY 2020 19:21
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.11.17)  18 MAY 2020 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1546,7 +1546,7 @@ File: figure//logo.jpg Graphic file (type bmp)
 
 
 
-]) [5]
+] [5]) [6]
 \openout2 = `pages/chapter4.aux'.
 
  (./pages/chapter4.tex
@@ -1587,11 +1587,11 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 LaTeX Font Warning: Font shape `TU/pcr/bx/n' undefined
 (Font)              using `TU/pcr/m/n' instead on input line 11.
 
-) [6
+) [7
 
 
 
-] [7
+] (./main.bbl) [8
 
 
 
@@ -1600,17 +1600,17 @@ LaTeX Font Warning: Font shape `TU/pcr/bx/n' undefined
 
  (./pages/appendix.tex
 附录 A.
-) [8
+) [9
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./main.aux (./pages/abstract.aux) (./pages/chapter1.aux)
 (./pages/chapter2.aux) (./pages/chapter3.aux) (./pages/chapter4.aux)
 (./pages/appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B1811B7768DBBECCA8D23C844D6BEC51.
 
@@ -1621,15 +1621,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 42600 strings out of 492922
- 832457 string characters out of 6136750
- 1156235 words of memory out of 5000000
- 46006 multiletter control sequences out of 15000+600000
+ 42623 strings out of 492922
+ 833683 string characters out of 6136750
+ 1157537 words of memory out of 5000000
+ 46026 multiletter control sequences out of 15000+600000
  545543 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  59i,12n,70p,464b,1140s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (10 pages).
+Output written on main.pdf (11 pages).

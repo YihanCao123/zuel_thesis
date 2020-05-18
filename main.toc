@@ -15,9 +15,9 @@
 \contentsline {section}{\numberline {3.4}引用设置}{5}{section.3.4}% 
 \contentsline {subsection}{\numberline {3.4.1}脚注与超链接}{5}{subsection.3.4.1}% 
 \contentsline {subsection}{\numberline {3.4.2}参考文献}{5}{subsection.3.4.2}% 
-\contentsline {chapter}{\numberline {4}代码、算法与附录}{6}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}代码}{6}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}算法}{6}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}附录}{6}{section.4.3}% 
-\contentsline {chapter}{\numberline {A}附录}{8}{appendix.A}% 
+\contentsline {chapter}{\numberline {4}代码、算法与附录}{7}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}代码}{7}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}算法}{7}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}附录}{7}{section.4.3}% 
+\contentsline {chapter}{\numberline {A}附录}{9}{appendix.A}% 
 \contentsfinish 
